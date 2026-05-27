@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Deepfake Detection Using Forensic Cues and Classical Computer Vision
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project focuses on detecting deepfake images and videos using forensic cues and classical computer vision techniques. The system analyzes visual inconsistencies, facial artifacts, and image manipulation traces to identify whether media content is real or fake.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* Deepfake image and video detection
+* Facial feature analysis
+* Forensic cue extraction
+* Frame-by-frame video processing
+* Real vs Fake prediction
+* User-friendly interface
+* Fast and efficient detection system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Python
+* OpenCV
+* NumPy
+* TensorFlow / Keras
+* CNN (Convolutional Neural Network)
+* Flask / React.js
+* Classical Computer Vision Techniques
 
-### `npm test`
+## Working Principle
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Upload image or video
+2. Extract frames and facial regions
+3. Analyze forensic inconsistencies
+4. Process features using computer vision
+5. Predict whether the media is Real or Fake
+6. Display final result to the user
 
-### `npm run build`
+## Dataset
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The model is trained and tested using publicly available deepfake datasets and manipulated media samples.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* frontend/ → User Interface
+* backend/ → Server-side code
+* model/ → Trained deepfake detection model
+* uploads/ → Uploaded media files
+* dataset/ → Training and testing data
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
+2. Install required dependencies
+3. Run backend server
+4. Start frontend application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Improvements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Improve detection accuracy
+* Add real-time webcam detection
+* Support multiple deepfake detection models
+* Deploy on cloud platform
+* Mobile application integration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Applications
 
-## Learn More
+* Social media verification
+* Digital media authentication
+* Cybersecurity
+* Fake news detection
+* Content moderation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Conclusion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project demonstrates how forensic cues and classical computer vision techniques can be used to identify manipulated media and help reduce the spread of deepfake content.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Harsh Ahlawat
